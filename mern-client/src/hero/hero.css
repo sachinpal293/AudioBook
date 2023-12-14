@@ -1,0 +1,36 @@
+.hero-section {
+    margin-top: 110px;
+    background: url("../assets/bookImg/asset 21.png");
+    background-color: #fffef5;
+}
+
+/* .hero {
+    margin-top: 40px;
+    margin-left: 110px;
+} */
+
+.content-hero {
+    margin-left: 250px;
+    text-align: right;
+}
+
+.heading {
+    margin-top: 130px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #0d3d67;
+}
+
+.para {
+    color: #0d3d67;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: #f67c01;
+}
