@@ -43,7 +43,7 @@ const CustomPaper = styled(Paper)(({ theme }) => ({
 }))
 
 const PSlider = styled(Slider)(({ theme, ...props }) => ({
-    color: 'lime',
+    color: 'white',
     height: 2,
     '&:hover': {
         cursor: 'auto',
@@ -143,10 +143,10 @@ export default function Player() {
 
     function VolumeBtns() {
         return mute
-            ? <VolumeOffIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
-            : volume <= 20 ? <VolumeMuteIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
-                : volume <= 75 ? <VolumeDownIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
-                    : <VolumeUpIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
+            ? <VolumeOffIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
+            : volume <= 20 ? <VolumeMuteIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
+                : volume <= 75 ? <VolumeDownIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
+                    : <VolumeUpIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={() => setMute(!mute)} />
     }
 
     return (
@@ -177,20 +177,20 @@ export default function Player() {
                         }}>
                         <SkipPreviousIcon
                             sx={{
-                                color: 'lime',
+                                color: 'white',
                                 '&:hover': { color: 'white' }
                             }}
                             onClick={toggleSkipBackward} disabled={true} />
-                        <FastRewindIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={toggleBackward} />
+                        <FastRewindIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={toggleBackward} />
 
                         {!isPlaying
-                            ? <PlayArrowIcon fontSize={'large'} sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={togglePlay} />
-                            : <PauseIcon fontSize={'large'} sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={togglePlay} />
+                            ? <PlayArrowIcon fontSize={'large'} sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={togglePlay} />
+                            : <PauseIcon fontSize={'large'} sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={togglePlay} />
                         }
 
 
-                        <FastForwardIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={toggleForward} />
-                        <SkipNextIcon sx={{ color: 'lime', '&:hover': { color: 'white' } }} onClick={toggleSkipForward} />
+                        <FastForwardIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={toggleForward} />
+                        <SkipNextIcon sx={{ color: 'white', '&:hover': { color: 'white' } }} onClick={toggleSkipForward} />
                     </Stack>
 
                     <Stack sx={{
@@ -202,9 +202,9 @@ export default function Player() {
                     display: 'flex',
                     alignItems: 'center'
                 }}>
-                    <Typography sx={{ color: 'lime' }}>{formatTime(elapsed)}</Typography>
+                    <Typography sx={{ color: 'white' }}>{formatTime(elapsed)}</Typography>
                     <PSlider thumbless value={elapsed} max={duration} />
-                    <Typography sx={{ color: 'lime' }}>{formatTime(duration - elapsed)}</Typography>
+                    <Typography sx={{ color: 'white' }}>{formatTime(duration - elapsed)}</Typography>
                 </Stack>
             </CustomPaper>
         </>
