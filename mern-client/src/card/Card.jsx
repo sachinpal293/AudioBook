@@ -14,13 +14,12 @@ const Card = () => {
                     <h1 className='book-heading mt-2'>KEY PERSON <br />OF INFLUENCE-THE</h1>
                     <p className="disc mt-2">by tanny hotthey and deny persthey</p>
                     <Link to="/shop" className='block'>
-
                         <button className='btn mt-2'>Start Learning</button>
                     </Link>
                 </div>
             </div>
-            <div className="second flex">
 
+            <div className="second flex">
                 {/* <div className="first-img"><img src="/image/thumb_1957.png" alt="" style={{ width: 170, height: 250 }} /></div> */}
                 <BannerCard />
                 <div className="name block mt-10 ml-10">

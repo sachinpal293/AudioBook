@@ -4,7 +4,8 @@ const About = () => {
     return (
         <div className='mt-20'>
             <h2 className='font-semibold text-center text-2xl'>About us</h2>
-            <p className='leading-7 break-words'>
+            <p className='leading-7 break-words py-6'>
+
                 Audio Book serves customers all at one place who searches for different types of extensions and themes for popular CMSs such as Joomla, Magento Wordpress and other individual Scripts. The founders of Apptha have more than 6 years of adept experience in web applications development for all the major CMSs such as Joomla, Wordpress etc. and for the leading E-commerce platform, Magento.
 
                 In the current business world, having an attractive and user friendly websites is a mandatory need. Position your business in the right sense which will provide a lot advantages to any business. It could be either an ecommerce portal to sell your products online or a fully functional CMS website to showcase your capabilities or a blog for daily content distribution for internet marketing purposes.

@@ -52,12 +52,15 @@ const Navbar = () => {
                     </ul>
                     {/* btn for large device */}
 
-                    <div className='space-x-12 hidden lg:flex items-center'>
-                        <button><FaBarsStaggered className='w-5 hover:text-blue-700' /></button>
-                        {
+                    {/* <div className='space-x-12 hidden lg:flex items-center'>
+                        <button><FaBarsStaggered className='w-5 hover:text-blue-700' />{
                             user ? user.email : ""
-                        }
-                    </div>
+                        }</button>
+                    </div> */}
+                    <Link to="/sign-up">
+                        <div class="hidden md:block px-2 py-2 text-white-700 rounded font-bold cursor-pointer">
+                            Login/SignUp</div>
+                    </Link>
 
                     {/* menu btn for mobile devices */}
                     <div className='md:hidden'>
