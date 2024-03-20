@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <div className='content-hero'>
                     <h1 className="heading">Listen & Learn</h1>
-                    <p className="para">Choose from 130,000 online vedio courses with<br />
+                    <p className="para">Choose from  online audio books with<br />
                         new published every month</p>
                     <Link to="#otherbooks" className='block' smooth>
                         <button className='btn mt-2'>Start Learning</button>

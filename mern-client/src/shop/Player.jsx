@@ -20,8 +20,8 @@ import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 // #endregion ------------ ICONS ---------
 
 // #region ------- Tracts -------------------------------------------------------
-import fade from './music/As You Fade Away - NEFFEX.mp3'
-import enough from './music/Enough - NEFFEX.mp3'
+// import fade from './music/As You Fade Away - NEFFEX.mp3'
+import enough from './music/Book1.mp3'
 import immortal from './music/Immortal - NEFFEX.mp3';
 import playDead from './music/Play Dead - NEFFEX.mp3';
 import winning from './music/Winning - NEFFEX.mp3';
@@ -56,8 +56,8 @@ const PSlider = styled(Slider)(({ theme, ...props }) => ({
 }))
 // #endregion ---------------------------------------------------------------
 
-
-const playlist = [fade, enough, immortal, playDead, winning];
+var fade = "https://www.nobadsong.com/wp-content/uploads/2023/08/The-Weeknd-Starboy.mp3"
+const playlist = [fade, enough];
 
 
 export default function Player() {

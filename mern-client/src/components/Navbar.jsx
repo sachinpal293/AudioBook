@@ -34,7 +34,6 @@ const Navbar = () => {
         { link: "About", path: "/about" },
         { link: "See All Book", path: "/shop" },
         { link: "Manage your book", path: "/admin/dashboard" },
-        { link: "Blog", path: "/blog" },
     ]
     return (
         <header className='w-full bg-transparent fixed top-0 left-0 right-0 transition-all ease-in duration-300'>
@@ -57,10 +56,10 @@ const Navbar = () => {
                             user ? user.email : ""
                         }</button>
                     </div> */}
-                    <Link to="/sign-up">
+                    {/* <Link to="/sign-up">
                         <div class="hidden md:block px-2 py-2 text-white-700 rounded font-bold cursor-pointer">
                             Login/SignUp</div>
-                    </Link>
+                    </Link> */}
 
                     {/* menu btn for mobile devices */}
                     <div className='md:hidden'>

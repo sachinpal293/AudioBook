@@ -10,3 +10,15 @@ textarea {
     resize: none;
     margin-bottom: 30px;
 }
+
+select{
+    margin-right: 20px;
+}
+
+.sound-btn
+{
+    font-size: 3rem;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 3rem;
+}

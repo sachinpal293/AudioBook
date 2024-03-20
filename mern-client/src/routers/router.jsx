@@ -5,6 +5,7 @@ import Shop from "../shop/shop";
 import About from "../components/About";
 import SingleBook from "../shop/SingleBook";
 import Blog from "../components/Blog";
+import Play from "../Playlist/Play"
 import DashBoard from "../dashboard/DashBoard";
 import DashBoardLayout from "../dashboard/DashBoardLayout";
 import UploadBook from "../dashboard/UploadBook";
@@ -30,7 +31,12 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About />
-            }, {
+            },
+            {
+                path:"/play",
+                element:<Play/>
+            },
+             {
                 path: "/blog",
                 element: <Blog />
             }, {
